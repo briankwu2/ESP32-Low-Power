@@ -214,4 +214,13 @@ void print_wakeup_reason()
 }
 
 /*
+Current Measurements:
+STATE_OFF: 56 mA
+STATE_ON: 56.14 mA
+STATE_FLASHING: 38.90mA
+STATE_LIGHT_SLEEP: 1.33mA
+STATE_DEEP_SLEEP: 13.2uA
+
+Board resets at 0.92V, and goes down to around 9uA.
+
 */
